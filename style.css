@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(216, 211, 211); 
+    font-family: 'PT Serif', serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+.sidebar nav{
+ padding: 25px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+
+.container{
+    display: flex;
+
+}
+
+.infocontainer{
+    /* background-color: rgb(208, 255, 0); */ */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.devInfo{
+ display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: 'PT Serif', serif;
+}
+
+.hello{
+    font-size: 50px;
+}
+
+.name{
+    font-size: 65px; 
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.buttons{
+    margin-top: 45px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+background-color: white;
+color: dodgerblue;
+
+}
+
+
+.devPic img{
+height: 58vh;
+}
+
+.contactform{
+   padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contactform h1{
+    font-family: 'PT Serif', serif;
+}
+
+.contactform form div{
+   padding: 10px 0; 
+   display: flex;
+   flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+font-size: 11px;
+color: midnightblue;
+margin: 0 5px;
+}
+
+#form-check {
+ flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.blogcontainer h1{
+    font-family: 'Rubik', sans-serif;
+    margin: 55px;
+}
+
+h1{
+    font-family: 'PT Serif', serif; 
+    margin: 23px;
+}
+ p{
+    font-family: 'Rubik', sans-serif;
+}  
+ 
+
+.intro h2{
+    font-family: 'PT Serif', serif; 
+    margin: 12px;
+}
+
+.intro p{
+    font-family: 'Rubik', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillItem{
+ display: flex;
+ align-items: center;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+
+}
+
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+
+.sidebarGo{
+  transform: translate(-443px, 0px);
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+margin-top: 10px;
+margin-left: 10px;
+}
+
+
+.cross{
+margin-left: 155px;
+}
+
+
+
+@media (max-width: 1615px) {
+*{
+    
+    /* background-color: rgb(221, 199, 199); */
+}
+.devPic{
+    display: none;
+}
+
+}
+/* .sidebar{ */
+ /* transform: translate(-443px, 0px); */
+ /* position: absolute; */
+}
+
+    
